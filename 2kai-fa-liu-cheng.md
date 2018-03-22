@@ -20,3 +20,7 @@
 
 7.写JSP页面调用，请求哪些参数，需要获取什么数据。
 
+大致流程如下：
+
+DataBase ===&gt; Entity ===&gt; Mapper.xml ===&gt; Mapper.Java ===&gt; Service.java ===&gt; Controller.java ===&gt; Jsp.  
+

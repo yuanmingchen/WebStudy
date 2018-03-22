@@ -22,5 +22,5 @@
 
 大致流程如下：
 
-DataBase ===&gt; Entity ===&gt; Mapper.xml ===&gt; Mapper.Java ===&gt; Service.java ===&gt; Controller.java ===&gt; Jsp.  
+DataBase ===&gt; Entity ===&gt; Mapper.xml ===&gt; Mapper.Java ===&gt; （Service接口--&gt;）Service.java ===&gt; Controller.java ===&gt; Jsp.
 

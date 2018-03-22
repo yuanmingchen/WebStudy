@@ -4,7 +4,7 @@
 
 #### [https://blog.csdn.net/bieleyang/article/details/77862042](https://blog.csdn.net/bieleyang/article/details/77862042)
 
-#### 
+#### 具体流程如下：
 
 1.设计数据库
 
@@ -20,7 +20,7 @@
 
 7.写JSP页面调用，请求哪些参数，需要获取什么数据。
 
-大致流程如下：
+大致文件编写流程如下：
 
 DataBase ===&gt; Entity ===&gt; Mapper.xml ===&gt; Mapper.Java ===&gt; （Service接口--&gt;）Service.java ===&gt; Controller.java ===&gt; Jsp.
 

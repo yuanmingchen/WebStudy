@@ -1,5 +1,13 @@
 # 3.实用工具
 
+#### 1.MyBatis Generator
+
+MyBatis Generator \(MBG\) 是一个Mybatis的代码生成器 MyBatis 和 iBATIS. 他可以生成Mybatis各个版本的代码，和iBATIS 2.2.0版本以后的代码。 他可以内省数据库的表（或多个表）然后生成可以用来访问（多个）表的基础对象。 这样和数据库表进行交互时不需要创建对象和配置文件。 MBG的解决了对数据库操作有最大影响的一些简单的CRUD（插入，查询，更新，删除）操作。 您仍然需要对联合查询和存储过程手写SQL和对象。
+
+参考博客[https://blog.csdn.net/yhaibo222/article/details/64921988](https://blog.csdn.net/yhaibo222/article/details/64921988)
+
+详细配置文档如下：（其实只需要很少的一部分）
+
     1<?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE generatorConfiguration
       PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
@@ -283,11 +291,6 @@
     </context>
 
     </generatorConfiguration>
-
-    作者：叩丁狼教育
-    链接：https://www.jianshu.com/p/e09d2370b796
-    來源：简书
-    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
 
